@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Input and Output Demo</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="script/script.js" defer></script>
+  </head>  
+  <body>
+          <div id="wrapwidth">
+  <h1>How to Trigger Events</h1>
+  <div class="colouredbox" onmouseover="welcomeMessage()">
+  </div>	
+  <p>Hover over blue square to see the effect of the onmouseover event.</p>
+
+  <div class="horizontalline">
+  </div>
+
+  <form id="form1">
+    <p><label for="firstname">Your name:</label>
+    <input type="text" size="20" id="name" /></p>
+    <p><input type="button" value="OK" onclick="nameMessage()"></p>
+  </form>
+
+  <div class="horizontalline">
+  </div>
+      </div>
+  </body>
+</html>
